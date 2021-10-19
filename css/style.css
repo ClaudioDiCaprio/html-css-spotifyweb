@@ -91,6 +91,9 @@ footer {
 .sentry {
     height: 100%;
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -191,7 +194,7 @@ footer {
 }
 
 .debug .tower {
-    background-color: cyan;
+    background-color: rgb(38, 0, 255);
 }
 
 
@@ -215,8 +218,12 @@ footer {
         width:calc(100% - 188px);
     }
 
+    
+
 
     @media screen and ( min-width:628px) {
+       
+       
         .righty,
         .lefty {
             width:188px
@@ -225,4 +232,8 @@ footer {
         .sentry {
             width:calc(100% - 376px) ;
         }
+
+        .tower {
+            width: 250px;
+        } 
     }
