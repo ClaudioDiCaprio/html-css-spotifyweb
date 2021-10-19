@@ -14,12 +14,16 @@
     clear: both;
 }
 
+/* general */
+
 .left {
     float: left;
 }
 
-.general {
-    width: 320px;
+.general,
+.general_ {
+    width: 100%;
+    min-width: 320px;
 }
 
 .one {
@@ -30,6 +34,9 @@
     width: 85%;
 }
 
+/* /general */
+
+/* footer */
 
 footer {
     height: 100px;
@@ -37,6 +44,10 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+/* /footer */
+
+
 
 
 
@@ -76,4 +87,24 @@ footer {
 .debug footer {
     background-color: chartreuse;
     width: 100%;
+}
+
+
+/* media_queries */
+
+@media screen and (min-width:321px) {
+
+    .general {
+        width: 100%;
+    }
+    .debug .center {
+        background-color: rgb(0, 26, 255);
+    }
+
+    .one {
+        width: 188px;
+    }
+    .two {
+        width:calc(100% - 188px);
+    }
 }
