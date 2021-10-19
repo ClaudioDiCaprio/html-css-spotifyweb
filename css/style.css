@@ -20,18 +20,17 @@
     float: left;
 }
 
-.general,
-.general_ {
+.general {
     width: 100%;
     min-width: 320px;
 }
 
 .one {
-    width: 15%;
+    width: 48px;
 }
 
 .two {
-    width: 85%;
+    width:calc(100% - 48px);
 }
 
 /* /general */
