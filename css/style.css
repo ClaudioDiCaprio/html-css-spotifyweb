@@ -26,11 +26,12 @@
 }
 
 .one {
-    width: 48px;
+    width: 39px;
+    background-color: black;
 }
 
 .two {
-    width:calc(100% - 48px);
+    width:calc(100% - 39px);
 }
 
 /* /general */
@@ -59,12 +60,11 @@ footer {
 
 /* debug */
 
-.debug .general {
+/* .debug .general {
     background-color: yellow;
-}
+} */
 
 .debug .one {
-    background-color: violet;
     height: 568px;
 }
 
@@ -93,9 +93,9 @@ footer {
 
 @media screen and (min-width:414px) {
 
-    .general {
+    /* .general {
         width: 100%;
-    }
+    } */
     .debug .center {
         background-color: rgb(0, 26, 255);
     }
