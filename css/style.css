@@ -5,3 +5,75 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.general {
+    width: 320px;
+}
+
+.one {
+    width: 15%;
+}
+
+.two {
+    width: 85%;
+}
+
+
+footer {
+    height: 100px;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* debug */
+
+.debug .general {
+    background-color: yellow;
+}
+
+.debug .one {
+    background-color: violet;
+    height: 568px;
+}
+
+.debug .two {
+    background-color: blue;
+    height: 568px;
+}
+
+.debug .upgrade {
+    height: 10%;
+    background-color: aqua;
+
+}
+.debug .center {
+    height:90%;
+    background-color: coral;
+}
+
+.debug footer {
+    background-color: chartreuse;
+    width: 100%;
+}
