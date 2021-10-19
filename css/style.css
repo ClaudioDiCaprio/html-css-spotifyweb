@@ -75,7 +75,8 @@ footer {
     display: flex;
     width: 100%;
     min-width: 320px;
-    height: 90px;
+    height: 80px;
+    position:fixed;
     z-index: 1;
     bottom: 0;
     left: 0;    
@@ -123,15 +124,15 @@ footer {
     height: 830px;
 }
 
-.debug .one {
+.debug .one,.debug .two  {
     height: 100%;
 }
 
-.debug .two {
+/* .debug .two {
    
-    height: 100%;
-    overflow: scroll;
-}
+    height: 100%; */
+    /* overflow: scroll; 
+ } */
 
 /* .debug .upgrade {
     height: 10%;
