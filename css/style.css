@@ -107,6 +107,10 @@ h3 {
 
 }
 
+.plus {
+    color: rgb(175, 175, 175);
+}
+
 .play {
     display: flex;
     align-items: center;
