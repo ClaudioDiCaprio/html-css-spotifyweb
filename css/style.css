@@ -21,7 +21,7 @@
 
 h3 {
     color: white;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
@@ -97,7 +97,7 @@ h3 {
 }
 
 .ectoplasm li {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 30px;
 
@@ -115,12 +115,23 @@ h3 {
 }
 .overfai ul {
     list-style: none;
+}
 
+.overfai ul li {
+    font-size: 12px;
 }
 
 .download img {
     width: 15px;
-    margin: 5px 10px;
+    margin: 0px 0px 0px 10px  ;
+}
+
+.download {
+    display: flex;
+}
+
+.download ul li {
+    display: inline-block;
 }
 
 .user img {
@@ -128,6 +139,7 @@ h3 {
     margin:5px 10px;
     background-color: rgb(167, 167, 167);
     border-radius: 50%;
+    
 }
 
 .house,
@@ -138,18 +150,24 @@ h3 {
 }
 
 
-/* .user {
-    background-color: lightgray;
-} */
-
-
-
 .house img,
 .search img, 
 .library img,
 .download img{
     filter: opacity(.7);
 }
+
+
+/* .hr {
+    height: 1px;
+    background-color: rgb(92, 92, 92);
+    margin-left: 20px;
+    width: 148px;
+    padding:0;
+    margin-top: 0;
+    display: none;
+} */
+
 
 .two {
     width:calc(100% - 39px);
@@ -346,8 +364,19 @@ footer {
         margin-left: 15px;
     }
 
-    .homie,.ghost{
+    .homie,.ghost,.hr{
         display: inline-block;
+    }
+    .user {
+        border-top: 1px solid grey;
+        width: 148px;
+        position: relative;
+        left: 15px;
+    }
+
+    .user img {
+        position: relative;
+        right: 15px;
     }
 
 }
