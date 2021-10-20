@@ -38,7 +38,9 @@ h3 {
     
 }
 
+ /* /general */
 
+ /* one */
 .one {
     display: flex;
     flex-direction: column;
@@ -148,14 +150,6 @@ h3 {
     align-items: center;
 }
 
-.jhon {
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    display:none;
-    position: relative;
-    right: 20px;
-}    
 
 .house,
 .search,
@@ -172,6 +166,18 @@ h3 {
     filter: opacity(.7);
 }
 
+.jhon {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    display:none;
+    position: relative;
+    right: 20px;
+}    
+
+/* /one */
+
+/* two */
 
 .two {
     width:calc(100% - 39px);
@@ -214,16 +220,15 @@ h3 {
     overflow: auto;
 }
 
-.navigation {
+/* .navigation {
     margin-top: 100px;
     background-color: red;
-    /* height: 90px; */
+    height: 90px;
     width: 100%;
-}
+} */
 
+/* /two */
 
-
-/* /general */
 
 /* footer */
 
@@ -249,7 +254,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
+.righty{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .sinister {
@@ -272,6 +282,11 @@ footer {
     font-size: 9px;
     font-weight: bold;
     color: white;
+}
+
+.song {
+    display: flex;
+    flex-direction: column;
 }
 
 .foldy {
@@ -299,24 +314,72 @@ footer {
     align-items: center;
 }
 
+.righty i {
+    color: whitesmoke ;
+    font-size: 8px;
+}
 
-.castra,.tower {
+.ruled {
+    height: 3px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 20%;   
+}
+
+.spano {
+    height: 3px;
+    width: 15px;
+    background-color: whitesmoke;
+}
+
+
+.tower {
     width: 100%;
     height: 50%;
 }
 
+.tower {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
 
+}
+
+.fa-play-circle {
+    font-size: 25px;
+}
+
+.this {
+    font-size: 14px;  
+}
+
+.castra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    /* padding: 5px; */
+    font-size: 8px;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+.ruled_{
+    height: 3px;
+    width: 80px;
+    background-color: grey;
+    border-radius: 15%;   
+}
+
+.spano_{
+    height: 3px;
+    width: 15px;
+    background-color: whitesmoke;
+}
 
 /* /footer */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -350,34 +413,32 @@ footer {
     background-color: chartreuse;
     width: 100%;
 } */
-.debug .boxy {
+/* .debug .boxy {
     background-color: yellow;
     height: 22px;
     width: 22px;
     margin:10px 9px ;
 
-}
+} */
 
 /* .debug .lefty {
     background-color: brown;
 } */
 
-.debug .sentry {
+/* .debug .sentry {
     background-color: rgb(255, 0, 0);
-}
+} */
 /* .debug .righty {
     background-color: brown;
 } */
 
-
-
-.debug .castra {
+/* .debug .castra {
     background-color: chartreuse;
-}
+} */
 
-.debug .tower {
+/* .debug .tower {
     background-color: rgb(38, 0, 255);
-}
+} */
 
 
 
@@ -435,6 +496,19 @@ footer {
         display: inline-block;
     }
 
+    .ruled_ {
+        width: 100px;
+    }
+
+    .song {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nome {
+        padding-left: 2px;
+    }
+
 }
 
     
@@ -455,12 +529,6 @@ footer {
         .tower {
             width: 250px;
         } 
-    }
-
-    @media screen and (min-width:800px) {
-        
-    
-
         .foldy {
             flex-direction: row;
             justify-content: space-between;
@@ -469,4 +537,34 @@ footer {
         .foldy i {
             margin: 0 15px 0 0 ;
         }
+
+        .ruled {
+            width: 100px;
+        }
+
+        .ruled_ {
+            width: 250px;
+        }
+        
+        .spano_{
+            width: 45px;
+        }
     }
+    
+
+    @media screen and (min-width:868px) {
+    
+        .ruled_ {
+            width: 380px;
+        }
+        .spano_{
+            width: 60px;
+        }
+        .castra {
+            width: 480px;
+        }
+
+    }
+        
+    
+
