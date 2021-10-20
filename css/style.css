@@ -31,8 +31,10 @@ h3 {
 
 .general {
     width: 100%;
+    height: calc(100vh - 80px);
     min-width: 320px;
     background-color: #141922;
+        
     
 }
 
@@ -110,7 +112,7 @@ h3 {
 }
 
 .overfai {
-    overflow:scroll;
+    overflow:auto;
     height: 180px;
 }
 .overfai ul {
@@ -243,6 +245,52 @@ footer {
    
 }
 
+.lefty {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sinister {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 8px;
+    color: rgb(167, 167, 167);
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.original {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sin {
+    font-size: 9px;
+    font-weight: bold;
+    color: white;
+}
+
+.foldy {
+    display: flex;
+    flex-direction: column;
+    color:rgb(167, 167, 167) ;
+    font-size: 12px;
+    
+}
+
+.foldy i {
+    margin: 0 5px 0 0 ;
+}
+.lefty img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
 .sentry {
     height: 100%;
     width: 40%;
@@ -274,9 +322,9 @@ footer {
 
 /* debug */
 
-.debug .general {
+/* .debug .general {
     height: calc(100vh - 80px);
-}
+} */
 
 /* .debug .one,.debug .two  {
     height: 100%;
@@ -310,16 +358,16 @@ footer {
 
 }
 
-.debug .lefty {
+/* .debug .lefty {
     background-color: brown;
-}
+} */
 
 .debug .sentry {
     background-color: rgb(255, 0, 0);
 }
-.debug .righty {
+/* .debug .righty {
     background-color: brown;
-}
+} */
 
 
 
@@ -407,4 +455,18 @@ footer {
         .tower {
             width: 250px;
         } 
+    }
+
+    @media screen and (min-width:800px) {
+        
+    
+
+        .foldy {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .foldy i {
+            margin: 0 15px 0 0 ;
+        }
     }
