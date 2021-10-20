@@ -43,28 +43,96 @@ h3 {
     justify-content: space-between;
     /* align-items: center; */
     width: 39px;
+    height: 100%;
     background-color: black;
+}
+
+.logo {
+    display: visible;
+}
+
+.logo,.house,.search,.library{
+    margin: 10px 5px;
+}
+
+.logo img,
+.house img,
+.search img,
+.library img{
+    width: 25px;
+}
+
+.download img {
+    width: 15px;
+    margin: 5px 10px;
+}
+
+.user img {
+    width: 18px;
+    margin:5px 10px;
+    background-color: rgb(167, 167, 167);
+    border-radius: 50%;
+}
+
+/* .user {
+    background-color: lightgray;
+} */
+
+
+
+.house img,
+.search img, 
+.library img,
+.download img{
+    filter: opacity(.7);
 }
 
 .two {
     width:calc(100% - 39px);
     background-color: #141922;
+    height: 100%;
+    overflow: auto;
 }
 
 .upgrade {
-    height: 10%;
-    line-height: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: calc(100% - 39px );
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    line-height: 90px;
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: right;
-    
-
 }
+
+
+
+.effect {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+    margin-right: 5px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
 
 .center {
     height:90%;
     background-color: #141922;
     width: 100%;
     padding: 15px;
+    overflow: auto;
+}
+
+.navigation {
+    margin-top: 100px;
+    background-color: red;
+    /* height: 90px; */
+    width: 100%;
 }
 
 /* /general */
@@ -121,12 +189,12 @@ footer {
 /* debug */
 
 .debug .general {
-    height: 830px;
+    height: calc(100vh - 80px);
 }
 
-.debug .one,.debug .two  {
+/* .debug .one,.debug .two  {
     height: 100%;
-}
+} */
 
 /* .debug .two {
    
@@ -156,26 +224,9 @@ footer {
 
 }
 
-.debug .effect {
-    display: inline-block;
-    background-color: white;
-    width: 150px;
-    height: 30px;
-    margin-right: 5px;
-    vertical-align: middle;
-}
+.debug 
 
- .navigation {
-    background-color: red;
-    height: 90px;
-    width: 100%;
-}
 
-.debug .troncmaster {
-    width: 100%;
-    height: 561px ;
-    background-color: yellow;
-}
 
 .debug .lefty {
     background-color: brown;
@@ -218,6 +269,12 @@ footer {
     .two {
         width:calc(100% - 188px);
     }
+
+    .upgrade {
+        
+        width: calc(100% - 188px );
+
+}
 
     
 
