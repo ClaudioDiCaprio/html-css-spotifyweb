@@ -139,8 +139,21 @@ h3 {
     margin:5px 10px;
     background-color: rgb(167, 167, 167);
     border-radius: 50%;
-    
 }
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.jhon {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    display:none;
+    position: relative;
+    right: 20px;
+}    
 
 .house,
 .search,
@@ -156,17 +169,6 @@ h3 {
 .download img{
     filter: opacity(.7);
 }
-
-
-/* .hr {
-    height: 1px;
-    background-color: rgb(92, 92, 92);
-    margin-left: 20px;
-    width: 148px;
-    padding:0;
-    margin-top: 0;
-    display: none;
-} */
 
 
 .two {
@@ -216,6 +218,8 @@ h3 {
     /* height: 90px; */
     width: 100%;
 }
+
+
 
 /* /general */
 
@@ -377,6 +381,10 @@ footer {
     .user img {
         position: relative;
         right: 15px;
+    }
+
+    .jhon {
+        display: inline-block;
     }
 
 }
