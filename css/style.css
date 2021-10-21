@@ -273,14 +273,25 @@ h3 {
 }
 /* /.navigation */
 
-.center h2 {
+.center .dose{
     color: whitesmoke;
     margin-bottom: 10px;
 }
 
-.tracks {
+.perjohn {
+    color: whitesmoke;
+}
+
+/* .doe {
+    color: whitesmoke;
+    margin-bottom: 5px;
+
+} */
+
+.tracks,.made {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
   
 }
 
@@ -293,20 +304,26 @@ h3 {
     max-width: 200px;
 }
 
-.tracks .albums img {
+.tracks .albums img,
+.made .albums img {
     width: 100%;
 }
 
-.tracks .albums p {
+.tracks .albums p,
+.made .albums p {
     color: whitesmoke;
     font-size: 12px;
     font-weight: bold;
+    margin-top: 10px;
 }
+
+
 
 .subtitle {
     color: rgb(167, 167, 167);
-    font-size: 8px;
+    font-size: 9px;
     font-weight: bold;
+    margin-top: 5px;
 }
 
 /* /two */
