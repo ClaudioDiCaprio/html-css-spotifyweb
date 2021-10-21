@@ -318,6 +318,10 @@ h3 {
     margin-top: 10px;
 }
 
+.made .albums .lud {
+    border-radius: 50%;
+}
+
 
 
 .subtitle {
@@ -525,72 +529,9 @@ footer {
     bottom:7px
 }
 
-
-
 /* /footer */
 
-
-
-/* debug */
-
-/* .debug .general {
-    height: calc(100vh - 80px);
-} */
-
-/* .debug .one,.debug .two  {
-    height: 100%;
-} */
-
-/* .debug .two {
-   
-    height: 100%; */
-    /* overflow: scroll; 
- } */
-
-/* .debug .upgrade {
-    height: 10%;
-    background-color: rgba(0, 0, 0, 0.5);
-
-} */
-/* .debug .center {
-    height:90%;
-    background-color: #141922;
-} */
-
-/* .debug footer {
-    background-color: chartreuse;
-    width: 100%;
-} */
-/* .debug .boxy {
-    background-color: yellow;
-    height: 22px;
-    width: 22px;
-    margin:10px 9px ;
-
-} */
-
-/* .debug .lefty {
-    background-color: brown;
-} */
-
-/* .debug .sentry {
-    background-color: rgb(255, 0, 0);
-} */
-/* .debug .righty {
-    background-color: brown;
-} */
-
-/* .debug .castra {
-    background-color: chartreuse;
-} */
-
-/* .debug .tower {
-    background-color: rgb(38, 0, 255);
-} */
-
-
 /* hoovers */
-
 
 .effect:hover {
     transform: scale(1.1);
