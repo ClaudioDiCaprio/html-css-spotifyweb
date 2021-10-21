@@ -653,6 +653,10 @@ footer {
         .spano_{
             width: 45px;
         }
+
+        .albums {
+            width: calc(100% / 4 - 10px );
+        }
     }
     
 
