@@ -21,7 +21,8 @@
 
 h3 {
     color: white;
-    font-size: 16px;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 
@@ -33,6 +34,7 @@ h3 {
     width: 100%;
     height: calc(100vh - 80px);
     min-width: 320px;
+    min-height: 80px;
     background-color: #141922;
         
     
@@ -45,10 +47,9 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
     width: 39px;
     height: 100%;
-    min-height: 400px;
+    min-height: 480px;
     background-color: black;
 }
 
@@ -101,7 +102,7 @@ h3 {
 }
 
 .ectoplasm li {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     line-height: 30px;
 
@@ -118,8 +119,8 @@ h3 {
 }
 
 .overfai {
-    overflow:auto;
-    height: 180px;
+    overflow:hidden;
+    height: 250px;
 }
 .overfai ul {
     list-style: none;
@@ -127,6 +128,11 @@ h3 {
 
 .overfai ul li {
     font-size: 12px;
+}
+
+.overjai {
+    height: 80%;
+    overflow-y: auto;
 }
 
 .download img {
@@ -170,6 +176,16 @@ h3 {
     filter: opacity(.7);
 }
 
+.uppy {
+    height: calc(100%-60px);
+}
+
+.downy {
+    min-height:60px;
+}
+
+
+
 .jhon {
     font-size: 10px;
     font-weight: bold;
@@ -202,6 +218,9 @@ h3 {
     text-align: right;
 }
 
+.upgrade a {
+    text-decoration: none;
+}
 
 
 .effect {
@@ -224,12 +243,39 @@ h3 {
     overflow: auto;
 }
 
-/* .navigation {
-    margin-top: 100px;
-    background-color: red;
-    height: 90px;
+/* navigation */
+
+.navigation {
+    margin: 80px 0 20px 0;
+    height: 70px;
     width: 100%;
-} */
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: rgb(167, 167, 167)
+}
+
+.navigation ul li {
+    padding: 0 5px ;
+    font-size: 9px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 35px;
+
+}
+/* /.navigation */
+
+.center h2 {
+    color: whitesmoke;
+}
 
 /* /two */
 
@@ -453,15 +499,15 @@ footer {
 
 
     .one {
-        width: 188px;
+        width: 168px;
     }
     .two {
-        width:calc(100% - 188px);
+        width:calc(100% - 168px);
     }
 
     .upgrade {
         
-        width: calc(100% - 188px );
+        width: calc(100% - 168px );
     }
 
     .logo {
@@ -486,7 +532,7 @@ footer {
     }
     .user {
         border-top: 1px solid grey;
-        width: 148px;
+        width: 128px;
         position: relative;
         left: 15px;
     }
@@ -519,6 +565,12 @@ footer {
     @media screen and ( min-width:628px) {
        
        
+        .navigation ul li {
+            font-size: 11px;
+            padding: 0 10px;
+            
+        }
+
         .righty,
         .lefty {
             width:188px
@@ -534,6 +586,7 @@ footer {
         .foldy {
             flex-direction: row;
             justify-content: space-between;
+            margin-right: 5px;
         }
 
         .foldy i {
