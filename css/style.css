@@ -494,8 +494,11 @@ footer {
     width: 11px;
     height: 11px;
     border-radius: 50%;
-    right: 340px;
+    left: 50px;
+    bottom:7px ;
 }
+
+
 
 /* /footer */
 
@@ -574,9 +577,10 @@ footer {
     background-color: rgb(180, 255, 30);
 }
 
-.castra:hover + .pinco {
-    display: block;
+.ruled_:hover .pinco {
+    display: visible;
 }
+
 /* media_queries */
 
 @media screen and (min-width:414px) {
