@@ -494,8 +494,19 @@ footer {
     width: 11px;
     height: 11px;
     border-radius: 50%;
-    left: 50px;
+    left:10px;
     bottom:7px ;
+}
+
+.panco {
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    left:10px;
+    bottom:7px
 }
 
 
@@ -578,7 +589,14 @@ footer {
 }
 
 .ruled_:hover .pinco {
-    display: visible;
+    display: block;
+}
+
+.ruled:hover .spano {
+    background-color: rgb(180, 255, 30);
+}
+.ruled:hover .panco {
+    display: block;
 }
 
 /* media_queries */
@@ -696,6 +714,10 @@ footer {
         .albums {
             width: calc(100% / 4 - 10px );
         }
+        
+        .pinco {
+            left: 40px;
+        }
     }
     
 
@@ -709,6 +731,9 @@ footer {
         }
         .castra {
             width: 480px;
+        }
+        .pinco {
+            left: 55px;
         }
 
     }
