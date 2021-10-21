@@ -301,7 +301,7 @@ h3 {
     width: calc(100% / 2 - 10px );
     margin: 10px 10px 10px 0;
     max-width: 200px;
-    position: relative;
+    /* position: relative; */
 }
 
 .tracks .albums img,
@@ -334,8 +334,14 @@ h3 {
 .WANNA {
     color: white;
     position: absolute;
-    top: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     opacity: 0;
+}
+
+.prova {
+    position: relative;
 }
 
 /* /two */
@@ -582,7 +588,7 @@ footer {
 
 .tracks .albums img:hover,
 .made .albums img:hover {
-    opacity: 70%;
+    opacity: 60%;
 }
 
 .albums:hover .WANNA {
