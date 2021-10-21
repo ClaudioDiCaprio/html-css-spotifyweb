@@ -240,7 +240,7 @@ h3 {
     background-color: #141922;
     width: 100%;
     padding: 15px;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 /* navigation */
@@ -260,7 +260,7 @@ h3 {
 
 .navigation ul li a {
     text-decoration: none;
-    color: rgb(167, 167, 167)
+    color: rgb(167, 167, 167);
 }
 
 .navigation ul li {
@@ -275,6 +275,38 @@ h3 {
 
 .center h2 {
     color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.tracks {
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.albums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 2 - 10px );
+    margin: 10px 10px 10px 0;
+    max-width: 200px;
+}
+
+.tracks .albums img {
+    width: 100%;
+}
+
+.tracks .albums p {
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: rgb(167, 167, 167);
+    font-size: 8px;
+    font-weight: bold;
 }
 
 /* /two */
