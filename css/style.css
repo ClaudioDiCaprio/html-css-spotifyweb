@@ -286,16 +286,11 @@ h3 {
     color: whitesmoke;
 }
 
-/* .doe {
-    color: whitesmoke;
-    margin-bottom: 5px;
-
-} */
-
 .tracks,.made {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
+    position:relative;
   
 }
 
@@ -306,12 +301,14 @@ h3 {
     width: calc(100% / 2 - 10px );
     margin: 10px 10px 10px 0;
     max-width: 200px;
+    position: relative;
 }
 
 .tracks .albums img,
 .made .albums img {
     width: 100%;
 }
+
 
 .tracks .albums p,
 .made .albums p {
@@ -328,6 +325,13 @@ h3 {
     font-size: 9px;
     font-weight: bold;
     margin-top: 5px;
+}
+
+.WANNA {
+    color: white;
+    position: absolute;
+    top: 50px;
+    opacity: 0;
 }
 
 /* /two */
@@ -635,6 +639,15 @@ footer {
     text-decoration: underline;
 }
 
+.tracks .albums img:hover,
+.made .albums img:hover {
+    opacity: 70%;
+}
+
+.albums:hover .WANNA {
+    opacity: 1;
+}
+
 /* media_queries */
 
 @media screen and (min-width:414px) {
@@ -773,6 +786,10 @@ footer {
             left: 55px;
         }
 
+        .WANNA {
+            top:90px;
+            font-size: 40px ;
+        }
     }
         
     
