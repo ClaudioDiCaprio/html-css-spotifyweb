@@ -240,11 +240,6 @@ h3 {
     
 }
 
-.effect:hover {
-    transform: scale(1.1);
-}
-
-
 .center {
     height:90%;
     background-color: #141922;
@@ -463,6 +458,10 @@ footer {
     font-size: 12px;  
 }
 
+/* .that {
+    transition: 0s;
+} */
+
 .castra {
     display: flex;
     justify-content: space-around;
@@ -486,6 +485,16 @@ footer {
     height: 3px;
     width: 15px;
     background-color: whitesmoke;
+}
+
+.pinco {
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    right: 340px;
 }
 
 /* /footer */
@@ -550,8 +559,24 @@ footer {
 } */
 
 
+/* hoovers */
 
 
+.effect:hover {
+    transform: scale(1.1);
+}
+
+.that:hover {
+    transform: scale(1.1);
+}
+
+.ruled_:hover .spano_ {
+    background-color: rgb(180, 255, 30);
+}
+
+.castra:hover + .pinco {
+    display: block;
+}
 /* media_queries */
 
 @media screen and (min-width:414px) {
