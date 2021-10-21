@@ -91,8 +91,7 @@ h3 {
 }
 
 .ectoplasm {
-    margin: 10px 0;
-    color: gray;
+    margin: 10px 0; 
     list-style: none;
 }
 
@@ -105,7 +104,7 @@ h3 {
     font-size: 13px;
     font-weight: bold;
     line-height: 30px;
-
+    color: gray;
 }
 
 .plus {
@@ -360,18 +359,19 @@ footer {
     justify-content: space-between;
 }
 
-.righty{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.lefty img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
 }
+
+
 
 .sinister {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     font-size: 8px;
-    color: rgb(167, 167, 167);
     font-weight: bold;
     margin-right: 5px;
 }
@@ -393,21 +393,26 @@ footer {
     flex-direction: column;
 }
 
+.nome{
+    color: rgb(167, 167, 167);
+}
+
+
 .foldy {
     display: flex;
     flex-direction: column;
-    color:rgb(167, 167, 167) ;
+    color:;
     font-size: 12px;
-    
 }
+
+.fa-folder,
+.fa-heart {
+    color: rgb(167, 167, 167) ;
+}
+
 
 .foldy i {
     margin: 0 5px 0 0 ;
-}
-.lefty img {
-    width: 25px;
-    height: 25px;
-    margin: 0 10px;
 }
 
 .sentry {
@@ -417,6 +422,13 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
+.righty{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 .righty i {
     color: whitesmoke ;
@@ -599,6 +611,30 @@ footer {
     display: block;
 }
 
+.fa-heart:hover,
+.fa-folder:hover {
+    color: whitesmoke;
+}
+
+.ectoplasm li:hover {
+    color: whitesmoke;
+}
+
+
+.navigation ul li a:hover {
+    color: whitesmoke;
+}
+
+
+.homie:hover {
+    color: whitesmoke;
+}
+
+.nome:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
 /* media_queries */
 
 @media screen and (min-width:414px) {
@@ -663,6 +699,7 @@ footer {
 
     .nome {
         padding-left: 2px;
+        
     }
 
 }
